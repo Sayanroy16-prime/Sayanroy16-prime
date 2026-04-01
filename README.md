@@ -1,7 +1,7 @@
 <h1 align="center">Hey there, I'm Sayan Roy 👋</h1>
 
 <p align="center">
-  🚀 1st Year CSE Student @ <strong>SRMIST KTR</strong> &nbsp;|&nbsp; Building things before most people figure out what to build.
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7B2FBE&center=true&vCenter=true&width=500&lines=1st+Year+CSE+%40+SRMIST+KTR;Backend+%7C+Frontend+%7C+Blockchain;Building+things+that+matter+%F0%9F%9A%80;Early+days.+Big+goals." alt="Typing SVG" />
 </p>
 
 ---
@@ -32,8 +32,24 @@
 ### 📊 GitHub Stats
 
 <p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Sayanroy16-prime&theme=tokyonight&no-frame=true&row=1&column=6" />
+</p>
+
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Sayanroy16-prime&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sayanroy16-prime&theme=tokyonight&hide_border=true" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sayanroy16-prime&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+</p>
+
+---
+
+### 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sayanroy16-prime/Sayanroy16-prime/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </p>
 
 ---
