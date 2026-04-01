@@ -29,16 +29,6 @@
 
 ---
 
-### 🔥 Featured Projects
-
-| Project | Description |
-|---|---|
-| 🐦 [bird-watching](https://github.com/Sayanroy16-prime/bird-watching) | Real-time bird monitoring using Raspberry Pi 5 & Pi Camera |
-| ☕ [step-class-1st-year](https://github.com/Sayanroy16-prime/step-class-1st-year) | Java coursework & experiments from 1st year |
-| 📚 [second-year-task-esm](https://github.com/Sayanroy16-prime/second-year-task-esm) | Academic tasks & assignments |
-
----
-
 ### 📊 GitHub Stats
 
 <p align="center">
@@ -51,8 +41,8 @@
 ### 📬 Connect With Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/sayan-roy"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/Sayanroy16-prime"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/sayan-roy-a1a41a37a/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.instagram.com/unavailable_sayan/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 </p>
 
 ---
