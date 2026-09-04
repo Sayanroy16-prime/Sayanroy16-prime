@@ -1,6 +1,8 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=Hey+there!+I'm+Sayan+Roy+👋;2nd+Year+CSE+%40+SRMIST+KTR;Building+Systems+That+Matter+%F0%9F%9A%80" alt="Typing SVG" />
-</h1>
+<p align="center">
+  <a href="https://github.com/Sayanroy16-prime">
+    <img src="https://raw.githubusercontent.com/Sayanroy16-prime/Sayanroy16-prime/main/sayan_name_animated.svg" width="100%" alt="Sayan Roy Blinking Animated Title" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://github.com/Sayanroy16-prime">
@@ -15,7 +17,13 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Sayanroy16-prime&color=8b5cf6&style=for-the-badge&label=PROFILE+VISITS" alt="Profile Visits" />
+  <a href="https://github.com/Sayanroy16-prime">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=2nd+Year+CSE+Student+%40+SRMIST+KTR;Backend+%7C+Frontend+%7C+Systems+%7C+IoT;Building+High-Impact+Software+%F0%9F%9A%80;Coffee+%2B+Algorithms+%2B+Late-Night+Commits" alt="Typing SVG" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Sayanroy16-prime&color=8b5cf6&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
 
 ---
@@ -40,49 +48,30 @@ const sayanRoy = {
 
 ---
 
-## 🏆 Achievements & Trophies
+## 📊 Analytics & Activity Dashboard
 
 <p align="center">
   <a href="https://github.com/Sayanroy16-prime">
-    <img src="https://github-profile-trophy.vercel.app/?username=Sayanroy16-prime&theme=tokyonight&no-frame=true&row=1&column=6" alt="Sayan's GitHub Trophies" />
+    <img src="https://streak-stats.demolab.com?user=Sayanroy16-prime&theme=tokyonight&hide_border=true" width="49%" alt="Streak Stats" />
+  </a>
+  <a href="https://github.com/Sayanroy16-prime">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sayanroy16-prime&theme=tokyonight" width="49%" alt="Profile Stats Card" />
   </a>
 </p>
-
----
-
-## 📊 Contribution & Activity Analytics
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sayanroy16-prime&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Sayan's Contribution Graph" />
-</p>
-
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/Sayanroy16-prime">
-        <img src="https://github-readme-stats.vercel.app/api?username=Sayanroy16-prime&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="100%" alt="GitHub Stats" />
-      </a>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/Sayanroy16-prime">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sayanroy16-prime&theme=tokyonight&hide_border=true" width="100%" alt="Streak Stats" />
-      </a>
-    </td>
-  </tr>
-</table>
 
 <p align="center">
   <a href="https://github.com/Sayanroy16-prime">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sayanroy16-prime&layout=compact&theme=tokyonight&hide_border=true" width="60%" alt="Top Languages" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Sayanroy16-prime&theme=tokyonight&utcOffset=5.5" width="49%" alt="Productive Time" />
+  </a>
+  <a href="https://github.com/Sayanroy16-prime">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sayanroy16-prime&theme=tokyonight" width="49%" alt="Repos Per Language" />
   </a>
 </p>
 
----
-
-## 🐍 Contribution Grid Snake
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sayanroy16-prime/Sayanroy16-prime/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" />
+  <a href="https://github.com/Sayanroy16-prime">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sayanroy16-prime&theme=tokyonight" width="99%" alt="Profile Details" />
+  </a>
 </p>
 
 ---
@@ -133,10 +122,6 @@ const sayanRoy = {
   &nbsp;&nbsp;
   <a href="https://www.instagram.com/unavailable_sayan/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:sayanroy@example.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 </p>
 

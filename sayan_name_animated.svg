@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 170" width="100%" height="170">
+  <defs>
+    <!-- Multi-color animated blinking gradient -->
+    <linearGradient id="rainbowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF007F">
+        <animate attributeName="stop-color" values="#FF007F;#7928CA;#00DFD8;#38EF7D;#FFD700;#FF007F" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="25%" stop-color="#7928CA">
+        <animate attributeName="stop-color" values="#7928CA;#00DFD8;#38EF7D;#FFD700;#FF007F;#7928CA" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#00DFD8">
+        <animate attributeName="stop-color" values="#00DFD8;#38EF7D;#FFD700;#FF007F;#7928CA;#00DFD8" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="75%" stop-color="#38EF7D">
+        <animate attributeName="stop-color" values="#38EF7D;#FFD700;#FF007F;#7928CA;#00DFD8;#38EF7D" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#FFD700">
+        <animate attributeName="stop-color" values="#FFD700;#FF007F;#7928CA;#00DFD8;#38EF7D;#FFD700" dur="3s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur1" />
+      <feGaussianBlur stdDeviation="3" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .blinking-name {
+        font-family: 'Montserrat', 'Segoe UI', Ubuntu, sans-serif;
+        font-weight: 900;
+        font-size: 56px;
+        fill: url(#rainbowGrad);
+        filter: url(#neonGlow);
+        letter-spacing: 5px;
+        animation: colorPulse 3s infinite ease-in-out;
+      }
+      .sub-text {
+        font-family: 'Fira Code', Consolas, Monaco, monospace;
+        font-size: 19px;
+        font-weight: 600;
+        fill: #C084FC;
+        letter-spacing: 2px;
+      }
+      .badge-text {
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        fill: #F3E8FF;
+      }
+      @keyframes colorPulse {
+        0% { opacity: 0.95; }
+        50% { opacity: 1; }
+        100% { opacity: 0.95; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="transparent"/>
+
+  <!-- Blinking Colored Animated Name -->
+  <text x="50%" y="70" text-anchor="middle" class="blinking-name">⚡ SAYAN ROY ⚡</text>
+
+  <!-- Subtitle Tagline -->
+  <text x="50%" y="118" text-anchor="middle" class="sub-text">💻 2nd Year CSE @ SRMIST KTR | Full-Stack &amp; Systems Engineer 🚀</text>
+</svg>
