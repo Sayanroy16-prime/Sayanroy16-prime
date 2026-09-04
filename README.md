@@ -132,6 +132,10 @@
   <a href="https://www.instagram.com/unavailable_sayan/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
+  &nbsp;&nbsp;
+  <a href="mailto:sayanroy090666@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
 </p>
 
 <p align="center">
