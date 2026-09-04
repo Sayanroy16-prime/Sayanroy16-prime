@@ -1,57 +1,64 @@
 <p align="center">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="55" />
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif" width="70" />
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/94.gif" width="60" />
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/9.gif" width="65" />
+</p>
+
+<p align="center">
   <a href="https://github.com/Sayanroy16-prime">
-    <img src="https://raw.githubusercontent.com/Sayanroy16-prime/Sayanroy16-prime/main/sayan_name_animated.svg" width="100%" alt="Sayan Roy Blinking Animated Title" />
+    <img src="https://raw.githubusercontent.com/Sayanroy16-prime/Sayanroy16-prime/main/sayan_name_animated.svg" width="100%" alt="Sayan Roy Blinking 8-Bit Pixel Animated Title" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Sayanroy16-prime">
-    <img src="https://img.shields.io/badge/YEAR-2ND%20YEAR%20CSE-8B5CF6?style=for-the-badge&logo=academicons&logoColor=white" />
+    <img src="https://img.shields.io/badge/LEVEL-2ND%20YEAR%20CSE-FF007F?style=for-the-badge&logo=gamepad&logoColor=white" />
   </a>
   <a href="https://github.com/Sayanroy16-prime">
-    <img src="https://img.shields.io/badge/COLLEGE-SRMIST%20KTR-3B82F6?style=for-the-badge&logo=education&logoColor=white" />
+    <img src="https://img.shields.io/badge/GUILD-SRMIST%20KTR-00F0FF?style=for-the-badge&logo=education&logoColor=black" />
   </a>
   <a href="https://github.com/Sayanroy16-prime">
-    <img src="https://img.shields.io/badge/FOCUS-BACKEND%20%7C%20SYSTEMS%20%7C%20IoT-10B981?style=for-the-badge&logo=codefactor&logoColor=white" />
+    <img src="https://img.shields.io/badge/CLASS-BACKEND%20%7C%20SYSTEMS%20%7C%20IoT-00FF66?style=for-the-badge&logo=codefactor&logoColor=black" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Sayanroy16-prime">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=2nd+Year+CSE+Student+%40+SRMIST+KTR;Backend+%7C+Frontend+%7C+Systems+%7C+IoT;Building+High-Impact+Software+%F0%9F%9A%80;Coffee+%2B+Algorithms+%2B+Late-Night+Commits" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Courier+New&weight=700&size=20&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&lines=%F0%9F%9D%BE+2nd+Year+CSE+Student+%40+SRMIST+KTR;%F0%9F%8E%AE+Backend+%7C+Frontend+%7C+Systems+%7C+IoT;%E2%9A%A1+Building+High-Impact+Software;%E2%98%95+Coffee+%2B+Algorithms+%2B+Late-Night+Commits" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Sayanroy16-prime&color=8b5cf6&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Sayanroy16-prime&color=ff007f&style=for-the-badge&label=ARCADE+VISITS" alt="Profile Views" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,24,30&height=100&section=header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,3,12,20,30&height=110&section=header" width="100%" />
 </p>
 
 ---
 
-## ⚡ About Me
+## 👾 About Me & Arcade Stats
 
 <p align="center">
   <a href="https://github.com/Sayanroy16-prime">
-    <img src="https://raw.githubusercontent.com/Sayanroy16-prime/Sayanroy16-prime/main/sayan_about_card.svg" width="100%" alt="Sayan Roy Animated Terminal Profile Card" />
+    <img src="https://raw.githubusercontent.com/Sayanroy16-prime/Sayanroy16-prime/main/sayan_about_card.svg" width="100%" alt="Sayan Roy Animated 8-Bit Cyberpunk Profile Card" />
   </a>
 </p>
 
 <br/>
 
-| Highlight | Description | Focus Area |
+| Quest / Highlight | Description | Specialty Domain |
 | :---: | :--- | :---: |
 | 🎓 **Education** | Pursuing **B.Tech CSE (2nd Year)** at **SRMIST Kattankulathur** | Computer Science & Engineering |
-| 🛠️ **Engineering** | Building robust backend services & algorithms in **Java, C++, Python & Go** | Backend & Systems |
-| 🦅 **Hardware & IoT** | Built an **Autonomous Bird Watching System** with **Raspberry Pi 5 & Pi Camera** | Embedded Systems & Vision |
-| 🚀 **Mission** | Focused on clean code, modular software architecture & high-performance applications | Software Engineering |
+| 🛠️ **Engineering** | Building robust backend services & algorithms in **Java, C++, Python & Go** | Backend & Systems Architecture |
+| 🦅 **Hardware & Vision** | Built an **Autonomous Bird Watching System** with **Raspberry Pi 5 & Pi Camera** | Embedded IoT & Hardware Vision |
+| 🚀 **Mission** | Focused on clean code, modular software architecture & high-performance applications | Software Engineering & Systems |
 
 ---
 
-## 🛠️ Tech Stack & Skill Arsenal
+## 🎮 Tech Stack & Skill Arsenal
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -139,7 +146,13 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,24,30&height=100&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,3,12,20,30&height=110&section=footer" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="35" />
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif" width="45" />
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/94.gif" width="40" />
 </p>
 
 <p align="center">

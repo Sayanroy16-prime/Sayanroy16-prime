@@ -1,21 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="100%" height="340">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="100%" height="360">
   <defs>
-    <!-- Border Gradient Animation -->
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#A855F7">
-        <animate attributeName="stop-color" values="#A855F7;#EC4899;#06B6D4;#10B981;#F59E0B;#A855F7" dur="4s" repeatCount="indefinite" />
+    <!-- 8-Bit Animated Rainbow Border Gradient -->
+    <linearGradient id="pixelBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF007F">
+        <animate attributeName="stop-color" values="#FF007F;#00F0FF;#00FF66;#FFE600;#BF00FF;#FF007F" dur="3s" repeatCount="indefinite" />
       </stop>
-      <stop offset="50%" stop-color="#EC4899">
-        <animate attributeName="stop-color" values="#EC4899;#06B6D4;#10B981;#F59E0B;#A855F7;#EC4899" dur="4s" repeatCount="indefinite" />
+      <stop offset="33%" stop-color="#00F0FF">
+        <animate attributeName="stop-color" values="#00F0FF;#00FF66;#FFE600;#BF00FF;#FF007F;#00F0FF" dur="3s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#06B6D4">
-        <animate attributeName="stop-color" values="#06B6D4;#10B981;#F59E0B;#A855F7;#EC4899;#06B6D4" dur="4s" repeatCount="indefinite" />
+      <stop offset="66%" stop-color="#00FF66">
+        <animate attributeName="stop-color" values="#00FF66;#FFE600;#BF00FF;#FF007F;#00F0FF;#00FF66" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#FFE600">
+        <animate attributeName="stop-color" values="#FFE600;#BF00FF;#FF007F;#00F0FF;#00FF66;#FFE600" dur="3s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
 
-    <!-- Glow Filter -->
-    <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+    <!-- Neon Glow -->
+    <filter id="arcadeGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -23,93 +26,111 @@
     </filter>
 
     <style>
-      .keyword { fill: #FF79C6; font-weight: bold; }
-      .variable { fill: #8BE9FD; font-weight: bold; }
-      .property { fill: #F1FA8C; font-weight: 600; }
-      .string-green { fill: #50FA7B; }
-      .string-orange { fill: #FFB86C; }
-      .string-cyan { fill: #8BE9FD; }
-      .string-gold { fill: #FFD700; font-weight: bold; }
-      .string-pink { fill: #FF92D0; }
-      .punct { fill: #F8F8F2; }
-      .comment { fill: #6272A4; font-style: italic; }
+      .kw { fill: #FF007F; font-weight: bold; }
+      .var { fill: #00F0FF; font-weight: bold; }
+      .prop { fill: #FFE600; font-weight: bold; }
+      .str-green { fill: #00FF66; }
+      .str-orange { fill: #FF8800; }
+      .str-cyan { fill: #00E5FF; }
+      .str-gold { fill: #FFD700; font-weight: bold; }
+      .str-pink { fill: #FF66CC; }
+      .punct { fill: #FFFFFF; }
+      .comment { fill: #A0A0B0; font-style: italic; }
       
-      .code-text {
-        font-family: 'Fira Code', 'Cascadia Code', Consolas, Monaco, monospace;
-        font-size: 15px;
-        line-height: 1.6;
+      .code-font {
+        font-family: 'Courier New', 'VT323', monospace;
+        font-size: 14.5px;
+        line-height: 1.5;
       }
       
-      .cursor {
-        fill: #A855F7;
-        animation: blink 1s infinite;
+      .pixel-cursor {
+        fill: #FF007F;
+        animation: pixelBlink 0.8s infinite steps(2, start);
       }
-      @keyframes blink {
+      @keyframes pixelBlink {
         0%, 100% { opacity: 1; }
         50% { opacity: 0; }
       }
     </style>
   </defs>
 
-  <!-- Outer Animated Border Container -->
-  <rect x="4" y="4" width="872" height="332" rx="14" fill="#0D1117" stroke="url(#borderGrad)" stroke-width="2.5" filter="url(#cardGlow)" />
+  <!-- Arcade Dark Outer Box -->
+  <rect x="4" y="4" width="872" height="352" rx="12" fill="#0C0D14" stroke="url(#pixelBorderGrad)" stroke-width="3" filter="url(#arcadeGlow)" />
 
   <!-- Terminal Top Header Bar -->
-  <path d="M 4 18 C 4 10, 10 4, 18 4 L 862 4 C 870 4, 876 10, 876 18 L 876 38 L 4 38 Z" fill="#161B22"/>
+  <path d="M 4 16 C 4 10, 10 4, 16 4 L 864 4 C 870 4, 876 10, 876 16 L 876 38 L 4 38 Z" fill="#141622"/>
   
-  <!-- Window Control Buttons -->
-  <circle cx="24" cy="21" r="6" fill="#FF5F56"/>
-  <circle cx="44" cy="21" r="6" fill="#FFBD2E"/>
-  <circle cx="64" cy="21" r="6" fill="#27C93F"/>
+  <!-- Arcade Window Control Dots -->
+  <rect x="20" y="16" width="10" height="10" fill="#FF0055"/>
+  <rect x="36" y="16" width="10" height="10" fill="#FFE600"/>
+  <rect x="52" y="16" width="10" height="10" fill="#00FF66"/>
 
-  <!-- Terminal Header Title -->
-  <text x="440" y="25" text-anchor="middle" fill="#8B949E" font-family="'Fira Code', monospace" font-size="13" font-weight="600">⚡ sayan_profile.js — 2nd Year CSE @ SRMIST KTR</text>
+  <!-- Header Text -->
+  <text x="440" y="25" text-anchor="middle" fill="#00F0FF" font-family="'Courier New', monospace" font-size="13" font-weight="bold">🎮 SAYAN_ROY_2ND_YEAR_CSE.js — 8-BIT CYBERPUNK TERMINAL 👾</text>
 
-  <!-- Syntax Highlighted Animated Code Content -->
-  <g class="code-text" transform="translate(24, 68)">
-    <!-- Line 1 -->
+  <!-- Right-side 8-Bit Pixel Art Mascot (Pixel Hacker Character / Monitor) -->
+  <g transform="translate(680, 65)">
+    <!-- Pixel Computer Monitor Frame -->
+    <rect x="0" y="0" width="160" height="130" fill="#181A2A" stroke="#00F0FF" stroke-width="3" rx="6"/>
+    <rect x="10" y="10" width="140" height="110" fill="#0A0B12"/>
+    
+    <!-- Pixel Face Eyes -->
+    <rect x="30" y="40" width="25" height="25" fill="#00FF66"/>
+    <rect x="105" y="40" width="25" height="25" fill="#00FF66"/>
+    <rect x="45" y="50" width="10" height="10" fill="#0A0B12"/>
+    <rect x="120" y="50" width="10" height="10" fill="#0A0B12"/>
+
+    <!-- Pixel Smile -->
+    <rect x="40" y="90" width="80" height="10" fill="#FF007F"/>
+    <rect x="30" y="80" width="10" height="10" fill="#FF007F"/>
+    <rect x="120" y="80" width="10" height="10" fill="#FF007F"/>
+
+    <!-- Pixel Monitor Stand -->
+    <rect x="65" y="130" width="30" height="20" fill="#181A2A"/>
+    <rect x="40" y="150" width="80" height="10" fill="#00F0FF"/>
+
+    <!-- Floating Pixel Hearts & Stars -->
+    <text x="145" y="25" fill="#FF0055" font-size="20" font-family="monospace">👾</text>
+    <text x="-25" y="145" fill="#FFE600" font-size="20" font-family="monospace">⚡</text>
+    <text x="145" y="145" fill="#00FF66" font-size="20" font-family="monospace">☕</text>
+  </g>
+
+  <!-- Code Syntax Block -->
+  <g class="code-font" transform="translate(24, 68)">
     <text x="0" y="0">
-      <tspan class="keyword">const</tspan> <tspan class="variable">sayanRoy</tspan> <tspan class="punct">=</tspan> <tspan class="punct">{</tspan>
+      <tspan class="kw">const</tspan> <tspan class="var">sayanRoy</tspan> <tspan class="punct">=</tspan> <tspan class="punct">{</tspan>
     </text>
 
-    <!-- Line 2 -->
-    <text x="24" y="28">
-      <tspan class="property">code:</tspan> <tspan class="punct">[</tspan><tspan class="string-green">"Java"</tspan><tspan class="punct">, </tspan><tspan class="string-green">"C++"</tspan><tspan class="punct">, </tspan><tspan class="string-green">"Python"</tspan><tspan class="punct">, </tspan><tspan class="string-green">"Go"</tspan><tspan class="punct">, </tspan><tspan class="string-green">"JavaScript"</tspan><tspan class="punct">],</tspan>
+    <text x="20" y="28">
+      <tspan class="prop">code:</tspan> <tspan class="punct">[</tspan><tspan class="str-green">"Java"</tspan><tspan class="punct">, </tspan><tspan class="str-green">"C++"</tspan><tspan class="punct">, </tspan><tspan class="str-green">"Python"</tspan><tspan class="punct">, </tspan><tspan class="str-green">"Go"</tspan><tspan class="punct">, </tspan><tspan class="str-green">"JavaScript"</tspan><tspan class="punct">],</tspan>
     </text>
 
-    <!-- Line 3 -->
-    <text x="24" y="56">
-      <tspan class="property">architecture:</tspan> <tspan class="punct">[</tspan><tspan class="string-orange">"Backend Systems"</tspan><tspan class="punct">, </tspan><tspan class="string-orange">"REST APIs"</tspan><tspan class="punct">, </tspan><tspan class="string-orange">"Object-Oriented Design"</tspan><tspan class="punct">],</tspan>
+    <text x="20" y="56">
+      <tspan class="prop">architecture:</tspan> <tspan class="punct">[</tspan><tspan class="str-orange">"Backend Systems"</tspan><tspan class="punct">, </tspan><tspan class="str-orange">"REST APIs"</tspan><tspan class="punct">, </tspan><tspan class="str-orange">"OOP"</tspan><tspan class="punct">],</tspan>
     </text>
 
-    <!-- Line 4 -->
-    <text x="24" y="84">
-      <tspan class="property">hardware:</tspan> <tspan class="punct">[</tspan><tspan class="string-cyan">"Raspberry Pi 5"</tspan><tspan class="punct">, </tspan><tspan class="string-cyan">"Pi Camera"</tspan><tspan class="punct">, </tspan><tspan class="string-cyan">"IoT Systems"</tspan><tspan class="punct">],</tspan>
+    <text x="20" y="84">
+      <tspan class="prop">hardware:</tspan> <tspan class="punct">[</tspan><tspan class="str-cyan">"Raspberry Pi 5"</tspan><tspan class="punct">, </tspan><tspan class="str-cyan">"Pi Camera"</tspan><tspan class="punct">, </tspan><tspan class="str-cyan">"IoT"</tspan><tspan class="punct">],</tspan>
     </text>
 
-    <!-- Line 5 -->
-    <text x="24" y="112">
-      <tspan class="property">education:</tspan> <tspan class="string-pink">"B.Tech Computer Science &amp; Engineering @ SRMIST KTR"</tspan><tspan class="punct">,</tspan>
+    <text x="20" y="112">
+      <tspan class="prop">education:</tspan> <tspan class="str-pink">"B.Tech CSE @ SRMIST Kattankulathur"</tspan><tspan class="punct">,</tspan>
     </text>
 
-    <!-- Line 6 -->
-    <text x="24" y="140">
-      <tspan class="property">currentYear:</tspan> <tspan class="string-gold">"2nd Year (Undergraduate)"</tspan><tspan class="punct">,</tspan>
+    <text x="20" y="140">
+      <tspan class="prop">currentYear:</tspan> <tspan class="str-gold">"2nd Year (Undergraduate)"</tspan><tspan class="punct">,</tspan>
     </text>
 
-    <!-- Line 7 -->
-    <text x="24" y="168">
-      <tspan class="property">traits:</tspan> <tspan class="punct">[</tspan><tspan class="string-green">"Curious Learner"</tspan><tspan class="punct">, </tspan><tspan class="string-orange">"Problem Solver"</tspan><tspan class="punct">, </tspan><tspan class="string-cyan">"Late-Night Builder ☕"</tspan><tspan class="punct">]</tspan>
+    <text x="20" y="168">
+      <tspan class="prop">traits:</tspan> <tspan class="punct">[</tspan><tspan class="str-green">"Curious"</tspan><tspan class="punct">, </tspan><tspan class="str-orange">"Problem Solver"</tspan><tspan class="punct">, </tspan><tspan class="str-cyan">"Late-Night Builder ☕"</tspan><tspan class="punct">]</tspan>
     </text>
 
-    <!-- Line 8 -->
     <text x="0" y="196">
       <tspan class="punct">};</tspan>
     </text>
 
-    <!-- Line 9 Status -->
-    <text x="0" y="230">
-      <tspan class="comment">// 🚀 Ready to build high-performance software &amp; hardware systems!</tspan> <tspan class="cursor">█</tspan>
+    <text x="0" y="232">
+      <tspan class="comment">// 👾 LEVEL UP: Building Next-Gen Systems!</tspan> <tspan class="pixel-cursor">█</tspan>
     </text>
   </g>
 </svg>
