@@ -26,25 +26,61 @@
   <img src="https://komarev.com/ghpvc/?username=Sayanroy16-prime&color=8b5cf6&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,24,30&height=100&section=header" width="100%" />
+</p>
+
 ---
 
 ## ⚡ About Me
 
-```javascript
-const sayanRoy = {
-    code: ["Java", "C++", "Python", "Go", "JavaScript"],
-    architecture: ["Backend Systems", "REST APIs", "Object-Oriented Design"],
-    hardware: ["Raspberry Pi 5", "Pi Camera", "IoT Systems"],
-    education: "B.Tech in Computer Science & Engineering @ SRMIST Kattankulathur",
-    currentYear: "2nd Year",
-    traits: ["Curious Learner", "Problem Solver", "Late-Night Builder ☕"]
-};
-```
+<p align="center">
+  <a href="https://github.com/Sayanroy16-prime">
+    <img src="https://raw.githubusercontent.com/Sayanroy16-prime/Sayanroy16-prime/main/sayan_about_card.svg" width="100%" alt="Sayan Roy Animated Terminal Profile Card" />
+  </a>
+</p>
 
-- 🎓 Pursuing **B.Tech CSE (2nd Year)** at **SRMIST Kattankulathur**.
-- 🛠️ Currently building robust backend services, algorithms in **Java & C++**, and exploring **Blockchain & IoT**.
-- 🦅 Created an **Autonomous Bird Watching System** leveraging Raspberry Pi 5 & Pi Camera.
-- 🚀 Passionate about clean code, modular software engineering, and high-performance systems.
+<br/>
+
+| Highlight | Description | Focus Area |
+| :---: | :--- | :---: |
+| 🎓 **Education** | Pursuing **B.Tech CSE (2nd Year)** at **SRMIST Kattankulathur** | Computer Science & Engineering |
+| 🛠️ **Engineering** | Building robust backend services & algorithms in **Java, C++, Python & Go** | Backend & Systems |
+| 🦅 **Hardware & IoT** | Built an **Autonomous Bird Watching System** with **Raspberry Pi 5 & Pi Camera** | Embedded Systems & Vision |
+| 🚀 **Mission** | Focused on clean code, modular software architecture & high-performance applications | Software Engineering |
+
+---
+
+## 🛠️ Tech Stack & Skill Arsenal
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,cpp,py,go,js,cs,html,css,nodejs,express,linux,git,github,vscode,raspberrypi,docker,postman&perline=9&theme=dark" alt="Sayan's Skill Icons" />
+  </a>
+</p>
+
+<p align="center">
+  <!-- Languages -->
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
+  <br/>
+  <!-- Web & Frameworks -->
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <br/>
+  <!-- Hardware & Tools -->
+  <img src="https://img.shields.io/badge/Raspberry%20Pi%205-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+</p>
 
 ---
 
@@ -76,33 +112,6 @@ const sayanRoy = {
 
 ---
 
-## 🛠️ Tech Stack & Arsenal
-
-<p align="center">
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
-  <br/>
-  <!-- Web & Frameworks -->
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <br/>
-  <!-- Hardware & Tools -->
-  <img src="https://img.shields.io/badge/Raspberry%20Pi%205-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-</p>
-
----
-
 ## 🌟 Featured Projects
 
 | Project Name | Description | Key Tech Stack |
@@ -123,6 +132,10 @@ const sayanRoy = {
   <a href="https://www.instagram.com/unavailable_sayan/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,24,30&height=100&section=footer" width="100%" />
 </p>
 
 <p align="center">

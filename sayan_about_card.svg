@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="100%" height="340">
+  <defs>
+    <!-- Border Gradient Animation -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7">
+        <animate attributeName="stop-color" values="#A855F7;#EC4899;#06B6D4;#10B981;#F59E0B;#A855F7" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#EC4899">
+        <animate attributeName="stop-color" values="#EC4899;#06B6D4;#10B981;#F59E0B;#A855F7;#EC4899" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#06B6D4">
+        <animate attributeName="stop-color" values="#06B6D4;#10B981;#F59E0B;#A855F7;#EC4899;#06B6D4" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .keyword { fill: #FF79C6; font-weight: bold; }
+      .variable { fill: #8BE9FD; font-weight: bold; }
+      .property { fill: #F1FA8C; font-weight: 600; }
+      .string-green { fill: #50FA7B; }
+      .string-orange { fill: #FFB86C; }
+      .string-cyan { fill: #8BE9FD; }
+      .string-gold { fill: #FFD700; font-weight: bold; }
+      .string-pink { fill: #FF92D0; }
+      .punct { fill: #F8F8F2; }
+      .comment { fill: #6272A4; font-style: italic; }
+      
+      .code-text {
+        font-family: 'Fira Code', 'Cascadia Code', Consolas, Monaco, monospace;
+        font-size: 15px;
+        line-height: 1.6;
+      }
+      
+      .cursor {
+        fill: #A855F7;
+        animation: blink 1s infinite;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Outer Animated Border Container -->
+  <rect x="4" y="4" width="872" height="332" rx="14" fill="#0D1117" stroke="url(#borderGrad)" stroke-width="2.5" filter="url(#cardGlow)" />
+
+  <!-- Terminal Top Header Bar -->
+  <path d="M 4 18 C 4 10, 10 4, 18 4 L 862 4 C 870 4, 876 10, 876 18 L 876 38 L 4 38 Z" fill="#161B22"/>
+  
+  <!-- Window Control Buttons -->
+  <circle cx="24" cy="21" r="6" fill="#FF5F56"/>
+  <circle cx="44" cy="21" r="6" fill="#FFBD2E"/>
+  <circle cx="64" cy="21" r="6" fill="#27C93F"/>
+
+  <!-- Terminal Header Title -->
+  <text x="440" y="25" text-anchor="middle" fill="#8B949E" font-family="'Fira Code', monospace" font-size="13" font-weight="600">⚡ sayan_profile.js — 2nd Year CSE @ SRMIST KTR</text>
+
+  <!-- Syntax Highlighted Animated Code Content -->
+  <g class="code-text" transform="translate(24, 68)">
+    <!-- Line 1 -->
+    <text x="0" y="0">
+      <tspan class="keyword">const</tspan> <tspan class="variable">sayanRoy</tspan> <tspan class="punct">=</tspan> <tspan class="punct">{</tspan>
+    </text>
+
+    <!-- Line 2 -->
+    <text x="24" y="28">
+      <tspan class="property">code:</tspan> <tspan class="punct">[</tspan><tspan class="string-green">"Java"</tspan><tspan class="punct">, </tspan><tspan class="string-green">"C++"</tspan><tspan class="punct">, </tspan><tspan class="string-green">"Python"</tspan><tspan class="punct">, </tspan><tspan class="string-green">"Go"</tspan><tspan class="punct">, </tspan><tspan class="string-green">"JavaScript"</tspan><tspan class="punct">],</tspan>
+    </text>
+
+    <!-- Line 3 -->
+    <text x="24" y="56">
+      <tspan class="property">architecture:</tspan> <tspan class="punct">[</tspan><tspan class="string-orange">"Backend Systems"</tspan><tspan class="punct">, </tspan><tspan class="string-orange">"REST APIs"</tspan><tspan class="punct">, </tspan><tspan class="string-orange">"Object-Oriented Design"</tspan><tspan class="punct">],</tspan>
+    </text>
+
+    <!-- Line 4 -->
+    <text x="24" y="84">
+      <tspan class="property">hardware:</tspan> <tspan class="punct">[</tspan><tspan class="string-cyan">"Raspberry Pi 5"</tspan><tspan class="punct">, </tspan><tspan class="string-cyan">"Pi Camera"</tspan><tspan class="punct">, </tspan><tspan class="string-cyan">"IoT Systems"</tspan><tspan class="punct">],</tspan>
+    </text>
+
+    <!-- Line 5 -->
+    <text x="24" y="112">
+      <tspan class="property">education:</tspan> <tspan class="string-pink">"B.Tech Computer Science &amp; Engineering @ SRMIST KTR"</tspan><tspan class="punct">,</tspan>
+    </text>
+
+    <!-- Line 6 -->
+    <text x="24" y="140">
+      <tspan class="property">currentYear:</tspan> <tspan class="string-gold">"2nd Year (Undergraduate)"</tspan><tspan class="punct">,</tspan>
+    </text>
+
+    <!-- Line 7 -->
+    <text x="24" y="168">
+      <tspan class="property">traits:</tspan> <tspan class="punct">[</tspan><tspan class="string-green">"Curious Learner"</tspan><tspan class="punct">, </tspan><tspan class="string-orange">"Problem Solver"</tspan><tspan class="punct">, </tspan><tspan class="string-cyan">"Late-Night Builder ☕"</tspan><tspan class="punct">]</tspan>
+    </text>
+
+    <!-- Line 8 -->
+    <text x="0" y="196">
+      <tspan class="punct">};</tspan>
+    </text>
+
+    <!-- Line 9 Status -->
+    <text x="0" y="230">
+      <tspan class="comment">// 🚀 Ready to build high-performance software &amp; hardware systems!</tspan> <tspan class="cursor">█</tspan>
+    </text>
+  </g>
+</svg>
